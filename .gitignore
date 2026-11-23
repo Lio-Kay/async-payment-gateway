@@ -1,0 +1,50 @@
+# Bytecode and build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+wheels/
+*.egg-info/
+*.egg
+.eggs/
+
+# Virtual environments (uv.lock stays tracked)
+.venv/
+venv/
+env/
+
+# Local env files (.env.example stays tracked)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Linter, type-checker, and test caches
+.ruff_cache/
+.mypy_cache/
+.pyright/
+.pytest_cache/
+.hypothesis/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# Runtime logs and local volume dirs
+*.log
+logs/
+.data/
+pgdata/
+
+# Editors and OS files
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
